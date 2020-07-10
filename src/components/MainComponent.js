@@ -6,10 +6,9 @@ import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Contact from './ContactComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { CAMPSITES } from '../shared/campsites';
-import { COMMENTS } from '../shared/comments';
-import { PARTNERS } from '../shared/partners';
-import { PROMOTIONS } from '../shared/promotions';
+import { BULLETIN } from '../shared/bulletin';
+import { CONTACTS } from '../shared/contacts';
+import { PROGRAMS } from '../shared/programs';
 
 
 class Main extends Component {

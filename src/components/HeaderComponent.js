@@ -2,6 +2,8 @@ import React, { Component }  from 'react';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
+export default Home;
+
 class Header extends Component {
 
     constructor(props) {
@@ -22,14 +24,18 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-                <Jumbotron fluid>
+                <Jumbotron fluid className="jumbotron">
                     <div className="container">
                         <div className="row">
+                            <div className="col-md m-1">
+                                <h1>Villages of Kapolei</h1>
+                                <h2>Second City Planned Community<h2>  
+                            </div>
                             <div className="col">
-                                <h1>NuCamp</h1>
-                                <h2>a better way to camp</h2>                                            </div>
+                                <button type="button" className="btn">Payment</button>
                             </div>
                         </div>
+                    </div>
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
@@ -43,18 +49,18 @@ class Header extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/directory">
-                                        <i className="fa fa-list fa-lg" /> Directory
+                                    <NavLink className="nav-link" to="/hoa">
+                                        <i className="fa fa-list fa-lg" /> HOA
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/aboutus">
-                                        <i className="fa fa-info fa-lg" /> About
+                                    <NavLink className="nav-link" to="/events">
+                                        <i className="fa fa-info fa-lg" /> Events
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/contactus">
-                                        <i className="fa fa-address-card fa-lg" /> Contact Us
+                                    <NavLink className="nav-link" to="/news">
+                                        <i className="fa fa-address-card fa-lg" /> News
                                     </NavLink>
                                 </NavItem>
                             </Nav>
@@ -65,5 +71,3 @@ class Header extends Component {
         );
     }
 }
-
-export default Header;

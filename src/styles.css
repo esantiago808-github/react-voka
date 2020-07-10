@@ -1,48 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.jumbotron {
-  opacity: 0.5;
-  background-image: url('../public/assets/images/kapolei_aerial_9.jpg');
-  background-size: cover;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   
@@ -68,7 +23,6 @@ h1, h2, h3, h4, h5 {
 
 .btn {
     color: white;
-    background-color: #61dafb;
 }
 
 .fa {
@@ -164,8 +118,15 @@ h1, h2, h3, h4, h5 {
   align-content: center;
 }
 
+/* scroll bar for cards applies also to accordion
+.card-header {
+  font-size: 18px;
+  height: 50px;
+}
+ }
+*/
 .card-body {
   height: 200px;
+  /*width: 447px; */ /*this line causes the scroll bar to be static instead of moving with width of the page */
   overflow-y: auto;
   overflow-x: auto;
-

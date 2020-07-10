@@ -1,4 +1,4 @@
-export const PROMOTIONS = [
+export const BULLETIN = [
     {
         id: 0,
         title: "Modifications to Your Property",

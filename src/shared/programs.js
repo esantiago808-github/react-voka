@@ -1,4 +1,4 @@
-export const PARTNERS = [
+export const PROGRAMS = [
     {
         id: 0,
         programname: "Kickboxing",
