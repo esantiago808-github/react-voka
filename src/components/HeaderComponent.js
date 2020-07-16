@@ -1,8 +1,6 @@
 import React, { Component }  from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
+import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-
-export default Home;
 
 class Header extends Component {
 
@@ -24,22 +22,28 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-                <Jumbotron fluid className="jumbotron">
+                <Jumbotron fluid>
                     <div className="container">
                         <div className="row">
                             <div className="col-md m-1">
-                                <h1>Villages of Kapolei</h1>
-                                <h2>Second City Planned Community<h2>  
+                                <h1><strong>Villages of Kapolei</strong></h1>
+                                <h4>Second City Planned Community</h4>  
                             </div>
                             <div className="col">
-                                <button type="button" className="btn">Payment</button>
+                                <Button>
+                                    <a href="https://owner.topssoft.com/VillagesofKapoeli/Account/Login" target="_blank">
+                                        Payment
+                                    </a>
+                                </Button>
                             </div>
                         </div>
                     </div>
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="/">
+                            <img src="/assets/images/voka_logo3.png" height="30" alt="VOKA Logo" />
+                        </NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar>
@@ -71,3 +75,4 @@ class Header extends Component {
         );
     }
 }
+export default Header;

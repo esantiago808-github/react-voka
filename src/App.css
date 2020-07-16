@@ -38,9 +38,12 @@
 }
 
 .jumbotron {
-  opacity: 0.5;
-  background-image: url('../public/assets/images/kapolei_aerial_9.jpg');
-  background-size: cover;
+  margin: 0;
+  background-image: linear-gradient(to right, #F6D65B, #72B4AC);
+}
+
+.pymtbtn {
+  justify-self: bottom;
 }
 
 body {
@@ -58,73 +61,19 @@ h1, h2, h3, h4, h5 {
 
 #footerAddress {
     background-color: #72B4AC;
+    color: white;
 }
 
 #footerPrivacy {
   background-color: #6C757D;
   font-size: 12px;
-  padding: 10px 0px 5px
-}
-
-.btn {
-    color: white;
-    background-color: #61dafb;
+  padding: 10px 0px 5px;
+  color: white;
 }
 
 .fa {
     color: white;
 }
-
-/* hover dropdown menu - start */
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-  /* hover dropdown menu - end */
-
-
-/* Index Carousel - start */
-  .carousel-caption {
-    background-color: rgba(108, 117,125, 0.5);
-    margin: 5px;
-  }
-      
-  #welcomeImg, #communityImg, #familyImg {
-    height: 500px
-  }
-  
-/* Carousel - end */
 
 #residentImg {
     height: 300px;
@@ -168,4 +117,9 @@ h1, h2, h3, h4, h5 {
   height: 200px;
   overflow-y: auto;
   overflow-x: auto;
+}
 
+.carouselCaption {
+  background-color: gray;
+  opacity: 75%;
+}

@@ -2,7 +2,7 @@ export const PROGRAMS = [
     {
         id: 0,
         programname: "Kickboxing",
-        days: "Monday", "Wednesday",
+        days: "Monday", 
         time: "4:00 p.m.",
         fee: "$40.00 per month",
         place: "Rec 1",
@@ -15,7 +15,7 @@ export const PROGRAMS = [
     {
         id: 1,
         programname: "Aqua Jogging",
-        days: "Monday", "Wednesday", "Friday",
+        days: "Monday", 
         time: "9:00 a.m. to 10:00 a.m.",
         fee: "Free",
         place: "pool",

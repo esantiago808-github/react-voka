@@ -6,8 +6,7 @@ export const BULLETIN = [
         page: "covenants",
         warning: false,
         featured: true,
-        content: "You can contact the Covenants Department with your questions on modifications and how to submit your request. Our Design Review Application and Guidelines can also be found on our website at https://villagesofkapolei.org/wp-content/uploads/2019/12/DESIGN-COMMITTEE-RULES-120616.pdf. \n
-        \n Please keep in mind, ANYTHING done to the exterior of the property (front or in back of your fenced area) needs to be applied for and approved before installation."
+        content: "You can contact the Covenants Department with your questions on modifications and how to submit your request. Our Design Review Application and Guidelines can also be found on our website at https://villagesofkapolei.org/wp-content/uploads/2019/12/DESIGN-COMMITTEE-RULES-120616.pdf. Please keep in mind, ANYTHING done to the exterior of the property (front or in back of your fenced area) needs to be applied for and approved before installation."
     },
     {
         id: 1,
