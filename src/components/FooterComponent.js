@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom';
 function Footer(props) {
     return (
         <React.Fragment>
-            <footer className="site-footer" >
+            <footer className="site-footer">
                 <div className="container-fluid">
                     <div className="row" id="footerAddress">             
                         <div className="col-4 col-sm-2 offset-1">
                             <h5>Links</h5>
                             <ul className="list-unstyled">
-                                <li><Link to='/home'>Home</Link></li>
-                                <li><Link to='/hoa'>HOA</Link></li>
-                                <li><Link to='/events'>Events</Link></li>
-                                <li><Link to='/news'>News</Link></li>
+                                <li><Link to='/home' className="text-white">Home</Link></li>
+                                <li><Link to='/hoa' className="text-white">HOA</Link></li>
+                                <li><Link to='/events' className="text-white">Events</Link></li>
+                                <li><Link to='/news' className="text-white">News</Link></li>
                             </ul>
                         </div>
                         <div className="col-4 col-sm-3 text-center">
@@ -24,11 +24,11 @@ function Footer(props) {
                         </div>
                         
                         <div className="col-sm-4 text-center">
-                            <a href="https://www.google.com/maps/place/Villages+of+Kapolei+Association/@21.3332567,-158.0748578,15z/data=!3m1!4b1!4m5!3m4!1s0x7c0063418f1da805:0x77beb3370b4c5aea!8m2!3d21.3332369!4d-158.0661245" target="_blank">Villages of Kapolei - Administration Office
-                            91-111 Kama'aha Loop
-                            Kapolei, HI 96707</a>
-                            <a role="button" className="btn btn-link" href="tel:+18086744444"><i className="fa fa-phone" /> 1-808-674-4444</a><br />
-                            <a role="button" className="btn btn-link" href="mailto:association@villagesofkapolei.co"><i className="fa fa-envelope-o" /> association@villagesofkapolei.com</a>
+                            <a className="text-white" href="https://www.google.com/maps/place/Villages+of+Kapolei+Association/@21.3332567,-158.0748578,15z/data=!3m1!4b1!4m5!3m4!1s0x7c0063418f1da805:0x77beb3370b4c5aea!8m2!3d21.3332369!4d-158.0661245" target="_blank"><i class="fa fa-map-marker fa-lg"></i>  Villages of Kapolei - Administration Office<br />
+                            91-111 Kama'aha Loop<br />
+                            Kapolei, HI 96707</a><br />
+                            <a role="button" className="btn btn-link text-white" href="tel:+18086744444"><i className="fa fa-phone" /> 1-808-674-4444</a><br />
+                            <a role="button" className="btn btn-link text-white" href="mailto:association@villagesofkapolei.co"><i className="fa fa-envelope-o" /> association@villagesofkapolei.com</a>
                         </div>
                     </div>
                     <div className="row" id="footerPrivacy">             

@@ -31,7 +31,7 @@ class Header extends Component {
                             </div>
                             <div className="col">
                                 <Button>
-                                    <a href="https://owner.topssoft.com/VillagesofKapoeli/Account/Login" target="_blank">
+                                    <a className="text-white" href="https://owner.topssoft.com/VillagesofKapoeli/Account/Login" target="_blank">
                                         Payment
                                     </a>
                                 </Button>

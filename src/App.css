@@ -44,6 +44,7 @@
 
 .pymtbtn {
   justify-self: bottom;
+  color: white;
 }
 
 body {
@@ -55,6 +56,10 @@ h1, h2, h3, h4, h5 {
   font-family: "Open Sans", sans-serif;
 }
 
+#divh3 {
+  text-align: center;
+}
+
 .navbar {
     background-color: #72B4AC;
 }
@@ -62,7 +67,8 @@ h1, h2, h3, h4, h5 {
 #footerAddress {
     background-color: #72B4AC;
     color: white;
-}
+    padding: 10px 0px 5px;
+  }
 
 #footerPrivacy {
   background-color: #6C757D;
