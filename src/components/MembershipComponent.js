@@ -7,7 +7,7 @@ function Membership(props) {
         <div className="Container">
             <Row className="align-items-center">
                 <Col md={3}> 
-                    <img src="/assets/images/reccenter1.jpg" alt="Recreational Grounds" width="100" height="100"  />                    
+                    <img src="/assets/images/reccenter1.jpg" alt="Recreational Grounds" width="200" height="200"  />                    
                 </Col>
                 <Col className="text-md-left">
                     <h2>Membership</h2>

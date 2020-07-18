@@ -18,7 +18,7 @@ function Banquet(props) {
                     </div>        
                 </div>  
         </React.Fragment>
-    )
+    );
 }
 
 export default Banquet;

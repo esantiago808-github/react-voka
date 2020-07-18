@@ -5,7 +5,7 @@ function Pool(props) {
         <React.Fragment>
             <h2>Pool Schedule</h2>
         </React.Fragment>
-    )
+    );
 }
 
 export default Pool;
