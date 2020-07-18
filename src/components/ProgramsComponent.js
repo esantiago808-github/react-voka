@@ -5,226 +5,224 @@ import { Table, TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardIm
 function Programs(props) {
     return (
         <React.Fragment>
-            <Row>
-                <Col sm="2" className="pb-3">
-                    <CardImg top width="100%" src="/assets/images/yoga.jpg" alt="Yoga image" />
-                    <Card body id="cardBodyProgram">
-                        <CardTitle>Saturday/Sunday</CardTitle>
-                        <CardText>
-                            <Row>
-                                <strong>Saturday</strong>
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <strong>8:00 - 9:00 a.m.</strong>                                
-                                </Col>
-                                <Col>
-                                    Yoga Plain & Simple                    
-                                </Col>
-                                <Col>
-                                    Rec 1
-                                </Col>
-                            </Row>
-                            <Row>
-                                <strong>Sunday</strong>
-                                <p>No scheduled activities</p>
-                            </Row>
-                        </CardText>
-                    </Card>
-                </Col>
-                <Col sm="2" className="pb-3">
-                    <CardImg top width="100%" src="/assets/images/yoga.jpg" alt="Yoga image" />
-                    <Card body id="cardBodyProgram">
-                        <CardTitle>Monday</CardTitle>
-                        <CardText>
-                            <Row>
-                                <strong>8:30 - 11:30 a.m</strong>
-                                Keiki Steps<br/>
-                                Rec 1
-                            </Row>
-                        </CardText>
-                    </Card>
-                </Col>
-                <Col sm="2" className="pb-3">
-                    <CardImg top width="100%" src="/assets/images/yoga.jpg" alt="Yoga image" />
-                    <Card body id="cardBodyProgram">
-                        <CardTitle>Tuesday</CardTitle>
-                        <CardText>
-                        8:30 - 11:30 a.m.
-                        </CardText>
-                    </Card>
-                </Col>
-                <Col sm="2" className="pb-3">
-                    <CardImg top width="100%" src="/assets/images/yoga.jpg" alt="Yoga image" />
-                    <Card body id="cardBodyProgram">
-                        <CardTitle>Wednesday</CardTitle>
-                        <CardText>
-                        8:30 - 11:30 a.m.
-                        </CardText>
-                    </Card>
-                </Col>
-                <Col sm="2" className="pb-3">
-                    <CardImg top width="100%" src="/assets/images/yoga.jpg" alt="Yoga image" />
-                    <Card body id="cardBodyProgram">                        
-                        <CardTitle>Thursday</CardTitle>
-                        <CardText>
-                        8:30 - 11:30 a.m.
-                        </CardText>
-                    </Card>
-                </Col>
-                <Col sm="2" className="pb-3">
-                    <CardImg top width="100%" src="/assets/images/yoga.jpg" alt="Yoga image" />
-                    <Card body id="cardBodyProgram">
-                        <CardTitle>Friday</CardTitle>
-                        <CardText>
-                        9:00 am - 10:00 am
-                        Aqua Jogging
-                        Pool
-                        4:00 - 5:30 p.m.
-                        </CardText>
-                    </Card>
-                </Col>
-          </Row>
+            <h5>No scheduled program events on Sundays</h5>
+            <h5 className="text-danger"><strong>All Recreational Program Cancelled Due COVID-19 Until Further Notice</strong></h5>
             <Table>
                 <thead>
                     <tr>
-                    <th>#</th>
-                    <th>Sunday</th>
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Wednesday</th>
-                    <th>Thursday</th>
-                    <th>Friday</th>
-                    <th>Saturday</th>
+                    <th >#</th>
+                    <th id="thProgram">Monday</th>
+                    <th >Tuesday</th>
+                    <th >Wednesday</th>
+                    <th >Thursday</th>
+                    <th id="thProgram">Friday</th>
+                    <th id="thProgram">Saturday</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                            <td>No Scheduled Activity</td>
                             <td>
-                                <Row>8:30 - 11:30 a.m. </Row>
+                                <Row>8:30 - 11:30 a.m.</Row>
                                 <Row>Keiki Steps</Row>
                                 <Row>Rec 1</Row>
                             </td>
                             <td>
-                                <Row>8:30 - 11:30 a.m. </Row>
+                                <Row>8:30 - 11:30 a.m.</Row>
                                 <Row>Keiki Steps</Row>
                                 <Row>Rec 1</Row>
                             </td>
                             <td>
-                                <Row>8:30 - 11:30 a.m. </Row>
+                                <Row>8:30 - 11:30 a.m.</Row>
                                 <Row>Keiki Steps</Row>
                                 <Row>Rec 1</Row>
                             </td>
                             <td>
-                                <Row>8:30 - 11:30 a.m. </Row>
+                                <Row>8:30 - 11:30 a.m.</Row>
                                 <Row>Keiki Steps</Row>
                                 <Row>Rec 1</Row>
                             </td>
-                            <td>Friday Activity</td>
-                            <td>Saturday Activity</td>
+                            <td>
+                                <Row>9:00 am - 10:00 am</Row>
+                                <Row>Aqua Jogging</Row>
+                                <Row>Pool</Row>
+                            </td>
+                            <td>
+                                <Row>8:00 - 9:00 a.m.</Row>
+                                <Row>Yoga Plain & Simple</Row>
+                                <Row>Rec 1</Row>
+                            </td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
-                            <td>No Scheduled Activity</td>
                             <td>                                
                                 <Row>9:00 - 10:00 am</Row>
                                 <Row>Aqua Jogging</Row>
                                 <Row>Pool</Row>
                             </td>
-                            <td>Tuesday Activity</td>
-                            <td>Wednesday Activity</td>
-                            <td>Thursday Activity</td>
-                            <td>Friday Activity</td>
-                            <td>Saturday Activity</td>
+                            <td>
+                                <Row>5:00 - 5:50 p.m.</Row>
+                                <Row>Feel Good Stretch</Row>
+                                <Row>Rec 1</Row>
+                            </td>
+                            <td>
+                                <Row>9:00 - 10:00 am</Row>
+                                <Row>Aqua Jogging</Row>
+                                <Row>Pool</Row>
+                            </td>
+                            <td>
+                                <Row>10:00 a.m.</Row>
+                                <Row>Seniors Club</Row>
+                                <Row>Rec 1</Row>
+                            </td>
+                            <td>
+                                <Row>4:00 - 5:30 p.m.</Row>
+                                <Row>Junior Swim Team</Row>
+                                <Row>Pool</Row>
+                            </td>
+                            <td>No Scheduled Activity</td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
+                            <td>
+                                <Row>4:00 p.m.</Row>
+                                <Row>Kickboxing Fitness</Row>
+                                <Row>Rec 1</Row>
+                            </td>
+                            <td>
+                                <Row> 5:00 - 7:00 p.m.</Row>
+                                <Row>Taekwondo</Row>
+                                <Row>Rec 2</Row>
+                            </td>
+                            <td>
+                                <Row>4:00 p.m.</Row>
+                                <Row>Kickboxing Fitness</Row>
+                                <Row>Rec 1</Row>
+                            </td>
+                            <td>
+                                <Row>5:00 - 5:50 p.m.</Row>
+                                <Row>Feel Good Stretch</Row>
+                                <Row>Rec 1</Row>
+                            </td>
                             <td>No Scheduled Activity</td>
-                            <td>4:00 p.m.
-Kickboxing Fitness
-Rec 1</td>
-                            <td>Tuesday Activity</td>
-                            <td>Wednesday Activity</td>
-                            <td>Thursday Activity</td>
-                            <td>Friday Activity</td>
-                            <td>Saturday Activity</td>
+                            <td>No Scheduled Activity</td>
                     </tr>
                     <tr>
                         <th scope="row">4</th>
+                            <td>
+                                <Row>4:00 - 5:30 p.m.</Row>
+                                <Row>Swim Team</Row>
+                                <Row>Pool</Row>
+                            </td>
+                            <td>
+                                <Row>5:30 pm</Row>
+                                <Row>Girl Scouts</Row>
+                                <Row>Rec 1</Row>
+                                <Row>2nd and 4th Tuesdays</Row>
+                            </td>
+                            <td>
+                                <Row>4:00 p.m. - 5:30 p.m.</Row>
+                                <Row>Junior Swim Team</Row>
+                                <Row>Pool</Row>
+                            </td>
+                            <td>
+                                <Row>5:00 - 7:00 p.m.</Row>
+                                <Row>Taekwondo</Row>
+                                <Row>Rec 2</Row>
+                            </td>
                             <td>No Scheduled Activity</td>
-                            <td>4:00 - 5:30 p.m.
-Swim Team
-Pool</td>
-                            <td>Tuesday Activity</td>
-                            <td>Wednesday Activity</td>
-                            <td>Thursday Activity</td>
-                            <td>Friday Activity</td>
-                            <td>Saturday Activity</td>
+                            <td>No Scheduled Activity</td>
                     </tr>
                     <tr>
                         <th scope="row">5</th>
-                            <td>No Scheduled Activity</td>
                             <td>
                                 <Row>5:30 - 6:30 pm  </Row>                      
-                                <Row>KPOPK Cultural Hui - Keikis</Row>  
+                                <Row>KPOPK Cultural Hui</Row> 
+                                <Row>Keikis</Row>  
                                 <Row>Rec 2  </Row> 
                             </td>
-                            <td>Tuesday Activity</td>
-                            <td>Wednesday Activity</td>
-                            <td>Thursday Activity</td>
-                            <td>Friday Activity</td>
-                            <td>Saturday Activity</td>
+                            <td>
+                                <Row>6:30 - 7:30 pm</Row>
+                                <Row>Karate - Beginners</Row>
+                                <Row>Rec 1</Row>
+                            </td>
+                            <td>
+                                <Row>5:00 - 6:30 pm</Row>
+                                <Row>KPOPK Cultural Hui</Row>
+                                <Row>Keikis</Row>
+                                <Row>Rec 2</Row>
+                            </td>
+                            <td>
+                                <Row>6:30 - 7:30 pm</Row>
+                                <Row>Karate - Beginners</Row>
+                                <Row>Rec 1</Row>
+                            </td>
+                            <td>No Scheduled Activity</td>
+                            <td>No Scheduled Activity</td>
                     </tr>
                     <tr>
                         <th scope="row">6</th>
-                            <td>No Scheduled Activity</td>
                             <td>
-                                <Row>7:00 - 8:30 pm  </Row>                      
-                                <Row>KPOPK Cultural Hui - Adults</Row>  
-                                <Row>Rec 2  </Row> 
+                                <Row>7:00 - 8:30 pm</Row>
+                                <Row>KPOPK Cultural Hui</Row>
+                                <Row>Adults</Row> 
+                                <Row>Rec 2</Row> 
                             </td>
-                            <td>Tuesday Activity</td>
-                            <td>Wednesday Activity</td>
-                            <td>Thursday Activity</td>
-                            <td>Friday Activity</td>
-                            <td>Saturday Activity</td>
+                            <td>
+                                <Row>7:00 - 8:30 pm</Row>
+                                <Row>Karate - Advanced</Row>
+                                <Row>Rec 1</Row>
+                            </td>
+                            <td>
+                                <Row>7:00 - 8:30 pm</Row>
+                                <Row>KPOPK Cultural Hui</Row> 
+                                <Row>Adults</Row>
+                                <Row>Rec 2</Row>
+                            </td>
+                            <td>
+                                <Row>7:00 - 8:30 pm</Row>
+                                <Row>Karate - Advanced</Row>
+                                <Row>Rec 1</Row>
+                            </td>
+                            <td>No Scheduled Activity</td>
+                            <td>No Scheduled Activity</td>
                     </tr>
                     <tr>
                         <th scope="row">7</th>
+                            <td>
+                                <Row>7:00 - 8:30 p.m.</Row>
+                                <Row>Zumba & Pound</Row>
+                                <Row>Fitness Classes</Row>
+                                <Row>Rec 1</Row>
+                            </td>
+                            <td>
+                                <Row>7:30 - 8:30 p.m.</Row>
+                                <Row>Hip Hop</Row>
+                                <Row>Rec 2</Row>
+                            </td>
+                            <td>
+                                <Row>7:00 - 8:30 p.m.</Row>
+                                <Row>Zumba & Pound</Row>
+                                <Row> Fitness Classes</Row>
+                                <Row>Rec 1</Row>
+                                <Row>Most Wednesdays</Row>
+                            </td>
                             <td>No Scheduled Activity</td>
-                            <td>7:00 - 8:30 p.m.
-Zumba & Pound Fitness Classes
-Rec 1</td>
-                            <td>Tuesday Activity</td>
-                            <td>Wednesday Activity</td>
-                            <td>Thursday Activity</td>
-                            <td>Friday Activity</td>
-                            <td>Saturday Activity</td>
+                            <td>No Scheduled Activity</td>
+                            <td>No Scheduled Activity</td>
                     </tr>
                     <tr>
                         <th scope="row">8</th>
+                            <td>
+                                <Row>8:00 - 9:00 p.m.</Row>
+                                <Row>Orbix Fitness </Row>
+                                <Row>Rec 2</Row>
+                            </td>
                             <td>No Scheduled Activity</td>
-                            <td>8:00 - 9:00 p.m.
-Orbix Fitness
-Rec 2
-Tahitian style fitness class</td>
-                            <td>Tuesday Activity</td>
-                            <td>Wednesday Activity</td>
-                            <td>Thursday Activity</td>
-                            <td>Friday Activity</td>
-                            <td>Saturday Activity</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">9</th>
                             <td>No Scheduled Activity</td>
-                            <td>Monday Activity</td>
-                            <td>Tuesday Activity</td>
-                            <td>Wednesday Activity</td>
-                            <td>Thursday Activity</td>
-                            <td>Friday Activity</td>
-                            <td>Saturday Activity</td>
+                            <td>No Scheduled Activity</td>
+                            <td>No Scheduled Activity</td>
+                            <td>No Scheduled Activity</td>
                     </tr>
                 </tbody>
             </Table>
