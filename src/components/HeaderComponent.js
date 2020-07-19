@@ -62,6 +62,7 @@ class Header extends Component {
                                         <i className="fa fa-info fa-lg" /> Events
                                     </NavLink>
                                 </NavItem>
+                                
                                 <NavItem>
                                     <NavLink className="nav-link" to="/news">
                                         <i className="fa fa-address-card fa-lg" /> News
