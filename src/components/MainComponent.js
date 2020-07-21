@@ -10,7 +10,8 @@ import Banquet from './BanquetComponent';
 import News from './NewsPageComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { BULLETIN } from '../shared/bulletin';
-import { CONTACTS } from '../shared/contacts';
+import { BOARD } from '../shared/hoaboard';
+import { OFFICE } from '../shared/office';
 import { PROGRAMS } from '../shared/programs';
 
 
@@ -19,7 +20,8 @@ class Main extends Component {
         super(props);
         this.state = {
             bulletin: BULLETIN,
-            contacts: CONTACTS,
+            board: BOARD,
+            office: OFFICE,
             programs: PROGRAMS,
         };
     }
