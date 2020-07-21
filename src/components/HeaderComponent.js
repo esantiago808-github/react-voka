@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button } from 'reactstrap';
+import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button,  UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
@@ -58,11 +58,18 @@ class Header extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/events">
-                                        <i className="fa fa-info fa-lg" /> Events
-                                    </NavLink>
+                                    <UncontrolledDropdown setActiveFromChild>
+                                        <DropdownToggle tag="a" className="nav-link" caret>
+                                            <i className="fa fa-info fa-lg" />Events
+                                        </DropdownToggle>
+                                        <DropdownMenu>
+                                            <DropdownItem tag="a" className="nav-link text-info" href="/events">Events</DropdownItem>
+                                            <DropdownItem tag="a" className="nav-link text-info" href="/programs">Recreational Programs</DropdownItem>
+                                            <DropdownItem tag="a" className="nav-link text-info" href="/pool">Pool Schedule</DropdownItem>
+                                            <DropdownItem tag="a" className="nav-link text-info" href="/banquet">Banquet Room Rental</DropdownItem>
+                                        </DropdownMenu>
+                                    </UncontrolledDropdown> 
                                 </NavItem>
-                                
                                 <NavItem>
                                     <NavLink className="nav-link" to="/news">
                                         <i className="fa fa-address-card fa-lg" /> News

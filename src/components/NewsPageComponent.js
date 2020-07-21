@@ -3,7 +3,7 @@ import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 
-function NewsPage(props) {
+function News(props) {
     return (
         <React.Fragment>
             <Breadcrumb tag="nav" listTag="div">
@@ -34,4 +34,4 @@ function NewsPage(props) {
 }
 
 
-export default NewsPage;
+export default News;

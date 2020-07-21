@@ -15,39 +15,39 @@ const EventsTab = (props) => {
   }
 
   return (
-    <div>
+    <React.Fragment>
       <Nav tabs>
         <NavItem>
           <NavLink
-            className={classnames({ active: activeTab === '1' })}
+            className={classnames({ active: activeTab === '1', id: 'memberTab' })}
             onClick={() => { toggle('1'); }} >
             Membership
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink
-            className={classnames({ active: activeTab === '2' })}
+            className={classnames({ active: activeTab === '2', id: 'programsTab' })}
             onClick={() => { toggle('2'); }} >
               Recreational Programs
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink
-            className={classnames({ active: activeTab === '3' })}
+            className={classnames({ active: activeTab === '3', id: 'poolTab' })}
             onClick={() => { toggle('3'); }} >
               Pool Schedule
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink
-            className={classnames({ active: activeTab === '4' })}
+            className={classnames({ active: activeTab === '4', id: 'banquetTab' })}
             onClick={() => { toggle('4'); }} >
               Banquet Room Rental
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink
-            className={classnames({ active: activeTab === '5' })}
+            className={classnames({ active: activeTab === '5', id: 'neighborTab' })}
             onClick={() => { toggle('5'); }} >
               Neighborhood Watch
           </NavLink>
@@ -58,17 +58,10 @@ const EventsTab = (props) => {
           <Row>
             <Col sm="12" >
               <Membership />
-              
             </Col>
           </Row>
         </TabPane>
         <TabPane tabId="2">
-            <Row>
-                <Col sm="12" >
-                <h2>Recreational Programs</h2>
-                <h4>Weekly Schedlue</h4>
-            </Col>
-          </Row>
           <Row>
             <Col sm="12" >
               <Programs />
@@ -86,7 +79,6 @@ const EventsTab = (props) => {
           <Row>
             <Col sm="12" >
               <Banquet />
-              
             </Col>
           </Row>
         </TabPane>
@@ -94,12 +86,11 @@ const EventsTab = (props) => {
           <Row>
             <Col sm="12" >
               <Neighborhood />
-              
             </Col>
           </Row>
         </TabPane>
       </TabContent>
-    </div>
+    </React.Fragment>
   );
 }
 
