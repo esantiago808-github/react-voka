@@ -2,7 +2,6 @@ import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Row } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import BoardCarousel from './HOADirectorsComponent';
-import HOASection from './HOASectionComponent';
 import HOATabs from './HOATabsComponent'; 
 
 function HOAPage(props) {
