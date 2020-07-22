@@ -121,8 +121,16 @@ h1, h2, h3, h4, h5 {
 
 .card-body {
   height: 200px;
+  text-align: left;
   overflow-y: auto;
   overflow-x: auto;
+}
+
+.card-header {
+  background-color: #00abe6;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
 }
 
 .carouselCaption {
