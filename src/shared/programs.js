@@ -9,7 +9,8 @@ export const PROGRAMS = [
         age: "8 and up",
         instructorname: "",
         image: "/assets/images/bootstrap-logo.png",
-        featured: false,
+        active: true,
+        for: "kickbox",
         description: "Bootstrap Outfitters supplies you with the gear you need at prices you can't beat."
     },
     {
@@ -22,7 +23,8 @@ export const PROGRAMS = [
         age: "",
         instructorname: "",
         image: "/assets/images/bootstrap-logo.png",
-        featured: false,
+        active: true,
+        for: "aqua",
         description: "An informal exercise group at the pool. Water exercise improves circulation, lowers blood pressure, and increases range of motion without the stress of gravity."   
     },
     {
@@ -35,7 +37,8 @@ export const PROGRAMS = [
         age: "",
         instructorname: "",
         image: "/assets/images/bootstrap-logo.png",
-        featured: false,
+        active: true,
+        for: "orbix",
         description: "A Tahitian style fitness class that will get you moving. Don’t forget to bring your water bottle and a pareo if you have one."  
     },
     {
@@ -48,7 +51,7 @@ export const PROGRAMS = [
         age: "",
         instructorname: "Harry Winfield",
         image: "/assets/images/bootstrap-logo.png",
-        featured: false,
+        active: false,
         description: "Bootstrap Outfitters supplies you with the gear you need at prices you"   
-    }
+    },
 ]

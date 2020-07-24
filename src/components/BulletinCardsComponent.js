@@ -38,7 +38,7 @@ class Bulletin extends Component {
           <Col className="pb-3">
             <Card>
               <CardHeader className="card-header bg-warning">VOKA Corona Virus Updates</CardHeader>              
-              <CardBody>
+              <CardBody className="card-body"> 
                 <CardSubtitle><em>Posted March 16, 2020</em></CardSubtitle>
                 <br />
                 <CardText>
@@ -53,7 +53,7 @@ class Bulletin extends Component {
           </Col>
           <Col className="pb-3">
             <Card>
-              <CardHeader>Header</CardHeader>              
+              <CardHeader className="card-header">Header</CardHeader>              
               <CardBody>
                 <CardSubtitle>Card subtitle</CardSubtitle>
                 <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
@@ -66,8 +66,5 @@ class Bulletin extends Component {
   };
 }
 
-
-  
-
-  
   export default Bulletin;
+

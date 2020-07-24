@@ -64,7 +64,8 @@ class Header extends Component {
                                         </DropdownToggle>
                                         <DropdownMenu>
                                             <DropdownItem tag="a" className="nav-link text-info" href="/events">Events</DropdownItem>
-                                            <DropdownItem tag="a" className="nav-link text-info" href="/programs">Recreational Programs</DropdownItem>
+                                            <DropdownItem tag="a" className="nav-link text-info" href="/enroll">Recreational Programs</DropdownItem>
+                                            <DropdownItem tag="a" className="nav-link text-info" href="/programs">Program Schedule</DropdownItem>
                                             <DropdownItem tag="a" className="nav-link text-info" href="/pool">Pool Schedule</DropdownItem>
                                             <DropdownItem tag="a" className="nav-link text-info" href="/banquet">Banquet Room Rental</DropdownItem>
                                         </DropdownMenu>

@@ -8,12 +8,12 @@ import Programs from './ProgramsComponent';
 import Pool from './PoolComponent';
 import Banquet from './BanquetComponent';
 import News from './NewsPageComponent';
+import ProgramCards from './ProgramCardsComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { BULLETIN } from '../shared/bulletin';
 import { BOARD } from '../shared/hoaboard';
 import { OFFICE } from '../shared/office';
 import { PROGRAMS } from '../shared/programs';
-
 
 class Main extends Component {
     constructor(props) {
@@ -22,7 +22,7 @@ class Main extends Component {
             bulletin: BULLETIN,
             board: BOARD,
             office: OFFICE,
-            programs: PROGRAMS,
+            programs: PROGRAMS
         };
     }
 
@@ -45,6 +45,7 @@ class Main extends Component {
                     <Route exact path='/programs' component={Programs} />
                     <Route exact path='/pool' component={Pool} />
                     <Route exact path='/banquet' component={Banquet} />
+                    <Route exact path='/enroll' component={ProgramCards} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />

@@ -18,8 +18,8 @@ function Home(props) {
                 <p>The Villages of Kapolei is a Planned Community and part of the new city located on the Ewa plains of Oahu, Hawaii. The community features single family homes, condominiums, and rental apartments, approximately 5,000 units. Our community continues to grow as Kapolei, Second City is under development. The master plan community consists of the highest rated elementary, middle and high schools in the state of Hawaii, along with churches, parks, recreation centers, nearby retail centers, restaurants, and a 4 1/2-star Golf Digest rated golf course, spread over 888-acres of land.</p>
 
                 <p>The Villages of Kapolei is comprised of 8 Villages:</p>
-                
-                <ul>
+                <br />
+                <ul className="text-left">
                     <li>Kumu Iki</li>
                     <li>Aeloa</li>
                     <li>Malanai</li>
@@ -31,9 +31,6 @@ function Home(props) {
                 </ul>
                 <p>With many of the businesses adding a second location or moving to Kapolei our residents are enjoying the decreased commute time and improved family time.</p>
                 </div>
-                <h3 id="divh3">Office Administration Contact Information</h3> 
-                
-
             </div>          
             
         </React.Fragment>

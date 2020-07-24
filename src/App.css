@@ -48,12 +48,12 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 #divh3 {
@@ -62,6 +62,13 @@ h1, h2, h3, h4, h5 {
 
 .navbar {
     background-color: #72B4AC;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+  from {background-color: #F6D65B;}
+  to {background-color: #72B4AC;}
 }
 
 #footerAddress {
@@ -133,7 +140,7 @@ h1, h2, h3, h4, h5 {
   color: white;
 }
 
-.carouselCaption {
+.carouselCaption, .tdNoActivity {
   background-color: gray;
   opacity: 75%;
 }
@@ -146,3 +153,6 @@ h1, h2, h3, h4, h5 {
   width: 150px;
 }
 
+.bulletinCol {
+  padding: 10px 10px 10px 10px;
+}

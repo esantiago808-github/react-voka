@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 import Membership from './MembershipComponent';
+import ProgramCards from './ProgramCardsComponent';
 import Programs from './ProgramsComponent';
 import Banquet from './BanquetComponent';
 import Neighborhood from './NWatchComponent';
 import Pool from './PoolComponent';
+
 
 const EventsTab = (props) => {
   const [activeTab, setActiveTab] = useState('1');
@@ -33,26 +35,35 @@ const EventsTab = (props) => {
         </NavItem>
         <NavItem>
           <NavLink
-            className={classnames({ active: activeTab === '3', id: 'poolTab' })}
+            className={classnames({ active: activeTab === '3', id: 'programsSchTab' })}
             onClick={() => { toggle('3'); }} >
+              Program Schedule
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink
+            className={classnames({ active: activeTab === '4', id: 'poolTab' })}
+            onClick={() => { toggle('4'); }} >
               Pool Schedule
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink
-            className={classnames({ active: activeTab === '4', id: 'banquetTab' })}
-            onClick={() => { toggle('4'); }} >
+            className={classnames({ active: activeTab === '5', id: 'banquetTab' })}
+            onClick={() => { toggle('5'); }} >
               Banquet Room Rental
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink
-            className={classnames({ active: activeTab === '5', id: 'neighborTab' })}
+            className={classnames({ active: activeTab === '6', id: 'neighborTab' })}
             onClick={() => { toggle('5'); }} >
               Neighborhood Watch
           </NavLink>
         </NavItem>
+
       </Nav>
+
       <TabContent activeTab={activeTab}>
         <TabPane tabId="1">
           <Row>
@@ -64,21 +75,28 @@ const EventsTab = (props) => {
         <TabPane tabId="2">
           <Row>
             <Col sm="12" >
-              <Programs />
+              <ProgramCards />
             </Col>
         </Row>
         </TabPane>
         <TabPane tabId="3">
           <Row>
             <Col sm="12" >
-              <Pool />
+              <Programs />
             </Col>
           </Row>
         </TabPane>
         <TabPane tabId="4">
           <Row>
             <Col sm="12" >
-              <Banquet />
+              <Pool />
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="5">
+          <Row>
+            <Col sm="12" >
+            <Banquet />
             </Col>
           </Row>
         </TabPane>
