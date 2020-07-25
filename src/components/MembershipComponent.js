@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Media, Row} from 'reactstrap';
+import {Col, Row} from 'reactstrap';
 
 function Membership(props) {
     return (

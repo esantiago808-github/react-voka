@@ -1,51 +1,71 @@
 import React, { Component } from 'react';
-import { Row, Col, Container } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 class Directors extends Component {
 	render () {
 		return (
 			<React.Fragment>
 				<h4>2020 Board of Directors</h4>
-				<DirectorList board={this.props.board} />
+				<img src="/assets/images/boardmembers2.jpg" alt="Board of Directors" height="300" />
 
-				<ul className="list-unstyled">
-					<li>
-					Vanessa Lum, President, vlum@villagesofkapolei.com
-					</li>
-					<li>
-					Nathan Napihaa, Vice President, nnapihaa@villagesofkapolei.com
-					</li>
-				</ul>
-
+				<Row>
+					<Col>
+						2020 President
+					</Col>
+					<Col>
+						Vanessa Lum
+					</Col>
+					<Col>
+						vlum@villagesofkapolei.com
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						2022 Vice President
+					</Col>
+					<Col>
+						Nathan Napihaa
+					</Col>
+					<Col>
+						nnapihaa@villagesofkapolei.com
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+					2022 Secretary
+					</Col>
+					<Col>
+						David Luegen
+					</Col>
+					<Col>
+						dluengen@villagesofkapolei.com
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						2021 Treasurer
+					</Col>
+					<Col>
+						Carol Lagapa
+					</Col>
+					<Col>
+						clagapa@villagesofkapolei.com
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						2021 Director
+					</Col>
+					<Col>
+						Rudy Amasol
+					</Col>
+					<Col>
+						ramasol@villagesofkapolei.com
+					</Col>
+				</Row>
 			</React.Fragment>
 		);
 	}
-}
-
-class RenderDirectors extends Component {
-	render () {
-		return (
-			<p>
-				{this.props.board.contactname}, {this.props.board.title}, {this.props.board.email}
-			</p>
-		)
-	}
-}
-
-function DirectorList({board}) {
-	if(board)
-		return (
-			<React.Fragment>
-				<ul>
-					{this.props.board.map((board) =>
-					<li key={board.id}>
-						<RenderDirectors board={board} />
-					</li>
-					)}
-				</ul>
-			</React.Fragment>
-		)
-	return <div />
 }
 
 

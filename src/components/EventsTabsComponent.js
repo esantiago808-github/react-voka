@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 import Membership from './MembershipComponent';
 import ProgramCards from './ProgramCardsComponent';
@@ -57,7 +57,7 @@ const EventsTab = (props) => {
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === '6', id: 'neighborTab' })}
-            onClick={() => { toggle('5'); }} >
+            onClick={() => { toggle('6'); }} >
               Neighborhood Watch
           </NavLink>
         </NavItem>
@@ -100,7 +100,7 @@ const EventsTab = (props) => {
             </Col>
           </Row>
         </TabPane>
-        <TabPane tabId="5">
+        <TabPane tabId="6">
           <Row>
             <Col sm="12" >
               <Neighborhood />

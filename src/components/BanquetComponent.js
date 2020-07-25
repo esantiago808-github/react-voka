@@ -38,6 +38,7 @@ function Banquet(props) {
             </Row>
             <h4 classname="mt-20">Weekend Rental Prices & Fees</h4>
             <h5>Revised March 2020</h5>
+            
             <Table hover>
                 <thead>
                     <tr>
@@ -52,6 +53,7 @@ function Banquet(props) {
                         <td>Security Deposit</td>
                         <th>$250</th>
                         <td>Required to hold reservation. The balance is due 2-weeks before party date.</td>
+                        <td> </td>
                     </tr>
                     <tr>
                         <td>Lunch Rates</td>

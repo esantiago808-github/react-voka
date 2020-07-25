@@ -1,7 +1,6 @@
 import React from 'react';
-import { Breadcrumb, BreadcrumbItem, Row } from 'reactstrap';
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import BoardCarousel from './HOADirectorsComponent';
 import HOATabs from './HOATabsComponent'; 
 
 function HOAPage(props) {
@@ -16,7 +15,6 @@ function HOAPage(props) {
                 <BreadcrumbItem>HOA</BreadcrumbItem>
             </Breadcrumb>  
             <h1>Home Owners Association</h1>
-            <Row className="row center pb-5"><BoardCarousel /></Row>
             <HOATabs />
         </React.Fragment> 
     );

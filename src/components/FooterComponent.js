@@ -16,15 +16,15 @@ function Footer(props) {
                                 <li><Link to='/news' className="text-white">News</Link></li>
                             </ul>
                         </div>
-                        <div className="col-4 col-sm-3 text-center">
+                        <div className="col-4 col-sm-3 text-center ">
                             <h5>Social Media</h5>
-                            <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/villagesofkapoleiassociation/?hl=en" target="_blank"><i className="fa fa-instagram" /></a>{' '}
-                            <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/VillagesOfKapoleiAssociation" target="_blank"><i className="fa fa-facebook" /></a>{' '}
-                            <a className="btn btn-social-icon btn-google" href="https://www.yelp.com/biz/villages-of-kapolei-association-kapolei" target="_blank"><i className="fa fa-yelp" /></a> 
+                            <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/villagesofkapoleiassociation/?hl=en" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram" /></a>{' '}
+                            <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/VillagesOfKapoleiAssociation" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook" /></a>{' '}
+                            <a className="btn btn-social-icon btn-google" href="https://www.yelp.com/biz/villages-of-kapolei-association-kapolei" target="_blank" rel="noopener noreferrer"><i className="fa fa-yelp" /></a> 
                         </div>
                         
                         <div className="col-sm-4 text-center">
-                            <a className="text-white" href="https://www.google.com/maps/place/Villages+of+Kapolei+Association/@21.3332567,-158.0748578,15z/data=!3m1!4b1!4m5!3m4!1s0x7c0063418f1da805:0x77beb3370b4c5aea!8m2!3d21.3332369!4d-158.0661245" target="_blank"><i class="fa fa-map-marker fa-lg"></i>  Villages of Kapolei - Administration Office<br />
+                            <a className="text-white" href="https://www.google.com/maps/place/Villages+of+Kapolei+Association/@21.3332567,-158.0748578,15z/data=!3m1!4b1!4m5!3m4!1s0x7c0063418f1da805:0x77beb3370b4c5aea!8m2!3d21.3332369!4d-158.0661245" target="_blank" rel="noopener noreferrer"><i class="fa fa-map-marker fa-lg"></i>  Villages of Kapolei - Administration Office<br />
                             91-111 Kama'aha Loop<br />
                             Kapolei, HI 96707</a><br />
                             <a role="button" className="btn btn-link text-white" href="tel:+18086744444"><i className="fa fa-phone" /> 1-808-674-4444</a><br />

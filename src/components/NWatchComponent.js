@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Container } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import NeighborCarousel from './NeighborCarouselComponent';
 
 function Neighborhood(props) {
@@ -32,8 +32,8 @@ function Neighborhood(props) {
             </ul>
             <Row>
                 <Col sm={3}>
-                    <a href="https://www.honolulu.gov/it/default/224-site-dit-cat/34774-honolulu311.html#gsc.tab=0" target="_blank">
-                        <img src="/assets/images/HPD311Icon.png" height="200" />
+                    <a href="https://www.honolulu.gov/it/default/224-site-dit-cat/34774-honolulu311.html#gsc.tab=0" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/images/HPD311Icon.png" height="200" alt="HPD 311" />
                     </a>
                 </Col>
                 <Col>

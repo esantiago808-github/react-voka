@@ -1,10 +1,8 @@
-import React, { useState, Component } from 'react';
+import React, { Component } from 'react';
 import {
     Card, CardText, CardBody,
     CardTitle, CardFooter, Button, Row, Col, Container, Media, Modal, ModalHeader, ModalBody, Form, FormGroup, Input, Label, FormFeedback
 } from 'reactstrap';
-import { Link } from 'react-router-dom';
-
 
 class ProgramCards extends Component {
 
@@ -172,7 +170,7 @@ class ProgramCards extends Component {
                     </Container>
 
                     <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-                        <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
+                        <ModalHeader toggle={this.toggleModal}>Actvity Enrollment Form</ModalHeader>
                         <ModalBody>
                             <Form onSubmit={this.handleSubmit}>
                                 <FormGroup row>
