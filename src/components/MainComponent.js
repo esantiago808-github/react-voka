@@ -10,20 +10,11 @@ import Banquet from './BanquetComponent';
 import News from './NewsPageComponent';
 import ProgramCards from './ProgramCardsComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { BULLETIN } from '../shared/bulletin';
-import { BOARD } from '../shared/hoaboard';
-import { OFFICE } from '../shared/office';
-import { PROGRAMS } from '../shared/programs';
 
 class Main extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            bulletin: BULLETIN,
-            board: BOARD,
-            office: OFFICE,
-            programs: PROGRAMS
-        };
+        this.state = { };
     }
 
     render() {

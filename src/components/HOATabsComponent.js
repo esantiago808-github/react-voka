@@ -3,7 +3,7 @@ import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap
 import classnames from 'classnames';
 import Covenants from './CovenantsComponent';
 import HOASection from './HOASectionComponent';
-import Directors from './DirectorsContactComponent';
+import Directors from './DirectorsComponent';
 
 const HOATabs = (props) => {
   const [activeTab, setActiveTab] = useState('1');
@@ -37,6 +37,7 @@ const HOATabs = (props) => {
             </NavLink>
           </NavItem>
         </Nav>
+        
         <TabContent activeTab={activeTab}>
           <TabPane tabId="1">
             <Row>
