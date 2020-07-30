@@ -8,7 +8,8 @@ export const PROGRAMS = [
         place: "Rec 1",
         age: "8 and up",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/kickboxing.jpg",
+        alt: "Kickboxing",
         active: true,
         for: "kickbox",
         description: "Bootstrap Outfitters supplies you with the gear you need at prices you can't beat."
@@ -22,7 +23,8 @@ export const PROGRAMS = [
         place: "pool",
         age: "",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/pool.jpg",
+        alt: "Aqua Jogging",
         active: true,
         for: "aqua",
         description: "An informal exercise group at the pool. Water exercise improves circulation, lowers blood pressure, and increases range of motion without the stress of gravity."   
@@ -36,7 +38,8 @@ export const PROGRAMS = [
         place: "Rec 2",
         age: "",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/orbix.jpg",
+        alt: "Orbix Fitness",
         active: true,
         for: "orbix",
         description: "A Tahitian style fitness class that will get you moving. Don’t forget to bring your water bottle and a pareo if you have one."  
@@ -50,7 +53,8 @@ export const PROGRAMS = [
         place: "Rec 1",
         age: "",
         instructorname: "Harry Winfield",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/kapolei_chair_yoga.jpg",
+        alt: "Yoga Plain & Simple",
         active: true,
         for: "yoga",
         description: "Bootstrap Outfitters supplies you with the gear you need at prices you"   
@@ -64,7 +68,8 @@ export const PROGRAMS = [
         place: "Rec 1",
         age: "",
         instructorname: "Anela Jackson",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/zumba.png",
+        alt: "Zumba & Pound Fitness Classes",
         active: true,
         for: "zumba",
         description: "BooDance your way to fitness with Zumba, then drum up a healthier you with Pound fitness. Pound uses lightly weighted exercise drumsticks to engage the whole body. Tone, sculpt and cardio the fun way."   
@@ -78,7 +83,8 @@ export const PROGRAMS = [
         place: "to be determined",
         age: "Grades 1 - 5",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/kapolei_boy_scouts.jpg",
+        alt: "Club Scouts",
         active: true,
         for: "clubScouts",
         description: "Children in grades 1 - 5 enjoy activities which focus on developing character, improving fitness, teaching practical skills and community service. See their Facebook page @cubscoutpack126kapolei for more information."   
@@ -92,7 +98,8 @@ export const PROGRAMS = [
         place: "Rec. 1",
         age: "Grades K - 12",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/girl_scouts_hawaii_2.jpg",
+        alt: "Girl Scouts",
         active: true,
         for: "girlScouts",
         description: "Girls in grades K - 12 engage in skill-based badges, make friends, explore leadership opportunities, work collaboratively and serve their community. For more information contact gshwestside@gmail.com or visit us at https://www.gshawaii.org/."   
@@ -106,7 +113,8 @@ export const PROGRAMS = [
         place: "Rec. 1",
         age: "",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        alt: "Karate",
+        image: "/assets/images/karate.jpg",
         active: true,
         for: "karate",
         description: "Combines physical and mental benefits such as self-discipline, respect, concentration and courtesy"   
@@ -120,7 +128,8 @@ export const PROGRAMS = [
         place: "Rec. 2",
         age: "",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/kapolei_taekwondo.jpg",
+        alt: "Tropic Lightening Taekwondo",
         active: true,
         for: "taekwondo",
         description: "Martial arts skills with an emphasis on confidence, respect, discipline and character development. Free 2-week introductory trial."   
@@ -134,7 +143,8 @@ export const PROGRAMS = [
         place: "Rec. 1",
         age: "birth to 5, with a parent/adult",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/kapolei_keiki_steps.jpg",
+        alt: "Keiki Steps",
         active: true,
         for: "keikiSteps",
         description: "This free parent participation preschool prepares children for school through a variety of developmentally and culturally appropriate activities. Register by calling 620-9043 or email info@inpeace.org."   
@@ -148,7 +158,8 @@ export const PROGRAMS = [
         place: "Rec. 1",
         age: "6 - 18",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/kapolei_pool_junior_swim_2.jpg",
+        alt: "Junior Swim",
         active: true,
         for: "jrSwim",
         description: "Stroke refinement, conditioning, discipline and exercise. Pre-test minimum: 100 yards continuous swimming with 3 out of 4 competitive strokes at a level 5/6 standard. Call the recreation office for more information 674-4444, dept. 2."   
@@ -162,7 +173,8 @@ export const PROGRAMS = [
         place: "Rec. 2",
         age: "6 - 18",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/hulaclass.jpg",
+        alt: "KPOK Cultural Hui",
         active: true,
         for: "kpok",
         description: "Learn about the Hawaiian culture through language, song, dance and Polynesian cultural exchange experiences."   
@@ -176,7 +188,8 @@ export const PROGRAMS = [
         place: "Rec. 1",
         age: "6 - 18",
         instructorname: "to be determined",
-        image: "/assets/images/bootstrap-logo.png",
+        image: "/assets/images/hiphop2.jpg",
+        alt: "Hip Hop",
         active: true,
         for: "hipHop",
         description: "A fun hip hop class that teaches youth about Hawaii’s hip hop culture"   
