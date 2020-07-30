@@ -141,7 +141,9 @@ h1, h2, h3, h4, h5 {
 
 .carouselCaption, .tdNoActivity {
   background-color: gray;
+  font-weight: bold;
   opacity: 75%;
+  align-content: center;
 }
 
 #cardBodyProgram {

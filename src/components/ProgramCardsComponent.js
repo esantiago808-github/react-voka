@@ -124,9 +124,12 @@ class ProgramCards extends Component {
                 <React.Fragment>
                     <h3 className="m-3">Recreational Program Activities Information</h3>
                     <h5 className="text-danger m-3"><strong>All Recreational Programs Cancelled Due COVID-19 Until Further Notice</strong></h5>
-                    <Button>Activity Enrollment</Button>
+
+                    <Button onClick={this.toggleModal}>Activity Enrollment</Button>
                     <hr />
                     <RenderPrograms program={this.state.programs} />
+                    <hr />
+                    <Button onClick={this.toggleModal} className="m-3">Activity Enrollment</Button>
 
                     <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>Actvity Enrollment Form</ModalHeader>

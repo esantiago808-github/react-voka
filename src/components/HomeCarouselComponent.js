@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
+import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption, Col } from 'reactstrap';
 
 const items = [
   {
@@ -83,22 +83,41 @@ const HomeCarousel = (props) => {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} height="300" width="600" />
-        <CarouselCaption captionHeader={item.caption} className="carouselCaption" />
+        <CarouselCaption captionText={item.caption} className="carouselCaption" />
       </CarouselItem>
     );
   });
 
   return (
-    <Carousel
-      activeIndex={activeIndex}
-      next={next}
-      previous={previous}
-    >
-      <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
-      {slides}
-      <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-      <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-    </Carousel>
+    <Col>  
+      <Carousel
+        activeIndex={activeIndex}
+        next={next}
+        previous={previous}
+        
+      >
+        <CarouselIndicators 
+          items={items} 
+          activeIndex={activeIndex} 
+          onClickHandler={goToIndex} 
+        />
+
+        {slides}
+
+        <CarouselControl 
+          direction="prev" 
+          directionText="Previous" 
+          onClickHandler={previous} 
+          />
+
+        <CarouselControl 
+          direction="next" 
+          directionText="Next" 
+          onClickHandler={next} 
+        />
+
+      </Carousel>
+    </Col>
   );
 }
 

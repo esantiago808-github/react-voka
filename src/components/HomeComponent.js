@@ -7,7 +7,8 @@ function Home(props) {
             
             <div className="container">
                 <div className="row center">
-                    <h1>Home Page</h1>
+                    <h1>E Komo Mai</h1>
+                    <h4>Welcome to the Villages of Kapolei</h4>
                 </div>
                 <div className="row center">
                     <HomeCarousel />
@@ -29,7 +30,7 @@ function Home(props) {
                     <li>Kapolei Kai</li>
                     <li>Kaupe’a</li>
                 </ul>
-                <p>With many of the businesses adding a second location or moving to Kapolei our residents are enjoying the decreased commute time and improved family time.</p>
+                <p>With many of the businesses adding a second location or moving to Kapolei, our residents are enjoying the decreased commute and improved family time.</p>
                 </div>
             </div>          
             
